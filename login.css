@@ -29,6 +29,12 @@ body{
     height: 100%;
     object-fit: cover;
 } */
+
+.forget_title{
+    display: flex;
+    flex-direction: column;
+}
+
 .background{
     flex: 1;
     background: url('./img/background.png') no-repeat center center;
@@ -146,3 +152,4 @@ body{
 .li_form + .li_form{
     margin-top: 10px;
 }
+
