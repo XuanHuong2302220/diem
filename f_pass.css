@@ -50,16 +50,16 @@ body{
 
 .forget{
     max-width: 450px;
-    margin: 0 auto;
+    margin: 79px auto auto auto;
 }
 
 .forget_title h3{
     color: #063F95;
-    font-size: 25px;
+    font-size: 24px;
 }
 
 .forget_title{
-    margin: 80px 10px;
+    margin: 30px 10px;
 }
 
 .forget_title ul{
@@ -127,4 +127,8 @@ body{
 .back_login a:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+
+.forget_form{
+    margin-bottom: 10px;
 }
