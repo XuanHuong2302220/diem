@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.Container{
+    display: flex;
+    height: 100vh;
+}
+.left{
+    flex: 1;
+    background-color:rgb(230, 242, 255);
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    flex: 1;
+    
+}
+
+.background{
+    flex: 1;
+    background: url('./img/background.png') no-repeat center center;
+    background-size: contain;
+
+}
+
+.info_logo{
+    display: flex;
+    margin: 80px 0 30px 0;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+.brand_info{
+    color:rgb(7, 103, 177);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+ 
+.right{
+    background-color: rgb(230, 242, 255);
+}
+
+
+.main_login{
+    max-width: 700px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 150px 10px;
+}
+
+.sLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    max-width: 400px;
+    border: solid 1px #1668b3;
+    background-color: #1668b3;
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.search_head{
+    margin-left: 8px;
+    color: #fff;
+    margin-top: 17px;
+    font-weight: bold;
+}
+
+#province{
+    width: 95%;
+    padding: 5px 15px;
+    outline: none;
+    border-radius: 4px;
+    border-color: #1668b3;
+    margin-left: 8px;
+}
+
+.input_user{
+    width: 95%;
+    border: solid 1px #1668b3;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.input_btn{
+    border: none;
+    flex:1;
+    padding: 6px 15px;
+    outline: none;
+}
+.btn_search{
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.support{
+    border: solid 1px rgb(230, 242, 255);
+    margin-top: 15px;
+    width: 59%;
+    background-color: #f38121;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.support_name{
+    margin-top: 10px;
+    margin-left: 17px;
+    font-weight: bold;
+}
+
+.hotline{
+    display: flex;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+.icon_hotline{
+    margin-right: 10px;
+}
