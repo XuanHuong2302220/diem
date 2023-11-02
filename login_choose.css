@@ -72,7 +72,11 @@ body{
     color: #fff;
     border: solid 1px #00a6f9;
     cursor: pointer;
+   
+}
 
+.btn_login:hover{
+    background-color: #3fb3ec;
 }
 
 .title{

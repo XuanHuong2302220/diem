@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.home_page{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo_header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.logo_img{
+    width: 150px;
+}
+
+.name-home-page{
+    color: #00a6f9;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.account_logout{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.al{
+    color: #00a6f9;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #cccccc82;
+}
+
+.home_page-title{
+    display: flex;
+    margin: 15px 0;
+}
+
+.name_home_page{
+    margin-left: 100px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.home{
+   font-style: italic;
+}
+
+.common{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 19px;
+    width: 100px;
+    gap: 5px;
+}
+
+.common_name-title{
+    color: #0046f9;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+.common_name{
+    color: #00a6f9;
+    cursor: pointer;
+}

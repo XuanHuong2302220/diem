@@ -103,10 +103,15 @@ body{
     padding: 6px 15px;
     outline: none;
 }
+
+.input_btn:focus + .btn_search {
+    background-color: #f38121;
+}
 .btn_search{
     border: none;
     padding: 0 20px;
     cursor: pointer;
+    
 }
 
 .support{
